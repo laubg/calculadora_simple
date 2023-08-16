@@ -1,0 +1,9 @@
+@font-face{
+    font-family: cattyla;
+    src: url(../assets/fonts/Cattyla.ttf)
+}
+
+h1{
+    font-family: cattyla
+
+}

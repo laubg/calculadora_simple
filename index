@@ -4,8 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catculator</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon2.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fuentes.css">
 </head>
 <body>
+    <div class="cuadrobase">
+        <h1>Catculator</h1>
+
+    </div>
     
 </body>
 </html>
