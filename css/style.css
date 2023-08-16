@@ -1,0 +1,33 @@
+body{
+    background-color:#2e272e;
+    background-image:url(/assets/img/fondo.jpg);
+    background-repeat : no-repeat;
+    background-size : cover;
+    background-origin: border-box;
+    display: flex;
+    margin: 15vh;
+    justify-content: center; 
+    align-items: center;
+
+}
+
+.cuadrobase{
+    background-color:#e9a3cda1;
+    width:70vw;
+    height:90vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(241 231 237 / 69%);
+    backdrop-filter: blur(3.4px); 
+    
+}
+
+img{
+    height:27vh;
+}
