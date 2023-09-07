@@ -1,15 +1,38 @@
 body{
-    background-color:#2e272e;
-    background-image:url(../assets/img/fondo.jpg);
+    /* background-color:#2e272e; */
+    /* background-image:url(../assets/img/fondo.jpg);
     background-repeat : no-repeat;
-    background-size : cover;
-    background-origin: border-box;
+    background-size : cover; */
+    /* background-origin: border-box; */
     display: flex;
     margin: 15vh;
     justify-content: center; 
     align-items: center;
 
+    /* background degradado */
+    background: rgb(247,37,133);
+    background: -moz-linear-gradient(312deg, rgba(247,37,133,1) 0%, rgba(72,12,168,1) 47%, rgba(128,255,219,1) 100%);
+    background: -webkit-linear-gradient(312deg, rgba(247,37,133,1) 0%, rgba(72,12,168,1) 47%, rgba(128,255,219,1) 100%);
+    background: linear-gradient(312deg, rgba(247,37,133,1) 0%, rgba(72,12,168,1) 47%, rgba(128,255,219,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f72585",endColorstr="#80ffdb",GradientType=1);
+    background-size: 300% 100%;
+    animation: gradient 15s ease infinite;
+
+
 }
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%; 
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 
 .cuadrobase{
     background-color:#e9a3cda1;
