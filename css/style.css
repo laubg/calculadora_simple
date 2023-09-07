@@ -20,7 +20,7 @@ body{
 
 
 }
-
+/* background animación del degradado */
 @keyframes gradient {
     0% {
         background-position: 0% 50%; 

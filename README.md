@@ -10,6 +10,8 @@ _Html, CSS y Js._
 ## Decisiones de Implementación ⚙️
 
 ## Material consultado📌 
+* [https://pixonauta.com/como-animar-gradientes-o-degradados-con-css/](https://pixonauta.com/como-animar-gradientes-o-degradados-con-css/)
+https://pixonauta.com/como-animar-gradientes-o-degradados-con-css/
 ## Imágenes utilizadas🎨 
 * [Gato con computadora](https://www.freepik.es/vector-gratis/lindo-gato-trabajando-laptop-dibujos-animados-vector-icono-ilustracion-animal-tecnologia-icono-concepto-aislado_28565598.htm#page=2&query=Cat&position=6&from_view=author)
 * [Gato con lentes](https://www.freepik.es/vector-gratis/lindo-gato-fresco-gafas-dibujos-animados-vector-icono-ilustracion-animal-naturaleza-icono-concepto-aislado_23104955.htm#query=Cat&position=1&from_view=author)
