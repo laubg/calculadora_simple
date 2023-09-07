@@ -15,7 +15,7 @@ body{
     background: -webkit-linear-gradient(312deg, rgba(247,37,133,1) 0%, rgba(72,12,168,1) 47%, rgba(128,255,219,1) 100%);
     background: linear-gradient(312deg, rgba(247,37,133,1) 0%, rgba(72,12,168,1) 47%, rgba(128,255,219,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f72585",endColorstr="#80ffdb",GradientType=1);
-    background-size: 300% 100%;
+    background-size: 150% 100%;
     animation: gradient 15s ease infinite;
 
 
@@ -54,3 +54,37 @@ body{
 img{
     height:27vh;
 }
+
+/* .btn-gradient {
+    background: #bdbdbd;
+    background: linear-gradient(79.18deg, #49A0CE -0.43%, #7C53BE 22.82%, #C45497 50.61%, #7C53BE 73.76%, #49A0CE 98.43%);
+    background-size: 400% 100%;
+    -webkit-animation: gradient 15s ease infinite;
+    animation: gradient 15s ease infinite;
+    color: white;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+} */
+
+
+/* Responsive -----------------------------------------------------*/
+
+@media (max-width: 506px){
+    .cuadrobase{
+        margin:20px;
+        padding:68px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+    button{
+        font-size: 15px;
+    }
+    .resultados{
+        margin: 51px;
+    }
+
+}  
