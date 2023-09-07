@@ -69,7 +69,7 @@ img{
 
 /* Responsive -----------------------------------------------------*/
 
-@media (max-width: 506px){
+@media (max-width: 600px){
     .cuadrobase{
         margin:20px;
         padding:68px;
