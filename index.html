@@ -14,10 +14,10 @@
         <h1>Catculator</h1>
         <div class="calculadora">
             <div class="operando1">
-                <label>Operando 1: <br /><input id="operando1" type="number" step="any"></label><br />
+                <label>Operando 1: <br /><input id="operando1" type="number" step="any" placeholder="Ingresa un número"></label><br />
             </div>
             <div class="operando2">
-                <label>Operando 2: <br /><input id="operando2" type="number" step="any"></label><br />
+                <label>Operando 2: <br /><input id="operando2" type="number" step="any" placeholder="Ingresa otro número"></label><br />
             </div>
             <div class="operacion">
                 <label>Operación que deseas realizar: <br />
@@ -27,9 +27,20 @@
                     <option value="resta">Resta</option>
                     <option value="multiplicacion">Multiplicación</option>
                     <option value="división">División</option>
-                </select></label><br />
-                  
+                </select></label><br /> 
 
+            </div>
+            <div class="boton-operacion">
+                <button  id="IniciarJuego" onclick="" style="display:block;">Calcular</button>
+            </div>
+            <div class="contenedor-img">
+                <img src="assets/img/gato_1.png" id="img-cat">    
+            </div>
+           
+
+            <div class="resultado" id="resultado"></div>
+            <div class="reset" id="reset" style="display:none;">
+                <button onclick="reiniciar()"> Reiniciar</button>
             </div>
             
             
@@ -37,8 +48,7 @@
             
         </div>
 
-        <img src="assets/img/gato_1.png">
-
+        
     </main>
     <script src="assets/js/main.js"></script>
     
