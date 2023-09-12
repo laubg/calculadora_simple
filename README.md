@@ -12,6 +12,10 @@ _Html, CSS y Js._
 ## Material consultado📌 
 * [https://pixonauta.com/como-animar-gradientes-o-degradados-con-css/](https://pixonauta.com/como-animar-gradientes-o-degradados-con-css/)
 * [https://www.baulphp.com/input-type-number-y-numeros-decimales/](https://www.baulphp.com/input-type-number-y-numeros-decimales/)
+* [https://donnierock.com/2017/09/19/cambiar-el-src-de-una-imagen-con-javascript-o-jquery/](https://donnierock.com/2017/09/19/cambiar-el-src-de-una-imagen-con-javascript-o-jquery/)
+* [https://es.stackoverflow.com/questions/104098/por-qué-lo-concatena](https://es.stackoverflow.com/questions/104098/por-qué-lo-concatena)
+
+
 
 ## Imágenes y recursos utilizadas🎨 
 * [Gato con computadora](https://www.freepik.es/vector-gratis/lindo-gato-trabajando-laptop-dibujos-animados-vector-icono-ilustracion-animal-tecnologia-icono-concepto-aislado_28565598.htm#page=2&query=Cat&position=6&from_view=author)
