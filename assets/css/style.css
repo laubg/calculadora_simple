@@ -55,7 +55,33 @@ img{
     height:27vh;
 }
 
-/* .btn-gradient {
+input{
+    color:#4c2a9b;
+    height: 25px;
+    border-radius: 7px;
+    padding:5px
+}
+
+select{
+    color:#4c2a9b;
+    height: 31px;
+    border-radius: 7px;
+    padding:3px 4px;
+    font-size: 15px;
+    
+}
+label {
+    padding: 3px;
+    margin: 3px;
+    height: 23px;
+    display: flex;
+    flex-direction: column;
+    line-height: 23px;
+}
+
+
+
+    /* .btn-gradient {
     background: #bdbdbd;
     background: linear-gradient(79.18deg, #49A0CE -0.43%, #7C53BE 22.82%, #C45497 50.61%, #7C53BE 73.76%, #49A0CE 98.43%);
     background-size: 400% 100%;
