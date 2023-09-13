@@ -35,7 +35,7 @@ function imprimir(){
 
     const imprResultado= document.getElementById("resultado");
     imprResultado.style.display = 'flex';
-    imprResultado.innerHTML=` <h2> El resultado de la operación es: ${resultado}!</h2>`
+    imprResultado.innerHTML=` <h2>¡El resultado de la operación es: ${resultado}!</h2>`
 }
 
 // <--------Función para cambio de imagen----->

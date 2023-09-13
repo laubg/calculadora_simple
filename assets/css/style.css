@@ -1,11 +1,22 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
 body{
     /* background-color:#2e272e; */
     /* background-image:url(../assets/img/fondo.jpg);
     background-repeat : no-repeat;
     background-size : cover; */
     /* background-origin: border-box; */
+    height: 100vh;
     display: flex;
-    margin: 15vh;
+    /* margin: 15vh; */
+    flex-direction: column;
     justify-content: center; 
     align-items: center;
 
@@ -36,7 +47,8 @@ body{
 
 .cuadrobase{
     background-color:#f0afd652;
-    width:35vw;
+    width: 32vw;
+    margin: 6vh;
     height:auto;
     display: flex;
     flex-wrap: nowrap;
@@ -70,6 +82,9 @@ body{
     padding: 5px;
 }
 
+.contenedor-img{
+    height: 18.5vh;
+}
 img{
     height:27vh;
 }
@@ -90,13 +105,16 @@ select{
     
 }
 label {
-    padding: 3px;
-    margin: 3px;
+    
+    padding: 6px;
+    margin: 7px;
     height: 23px;
     display: flex;
     flex-direction: column;
-    line-height: 23px;
+    line-height: 24px;
     color: #f0e5e5;
+    font-size: 0.9em;
+    
 }
 
 button{
@@ -136,29 +154,28 @@ button:hover{
 
 }
 
-    /* .btn-gradient {
-    background: #bdbdbd;
-    background: linear-gradient(79.18deg, #49A0CE -0.43%, #7C53BE 22.82%, #C45497 50.61%, #7C53BE 73.76%, #49A0CE 98.43%);
-    background-size: 400% 100%;
-    -webkit-animation: gradient 15s ease infinite;
-    animation: gradient 15s ease infinite;
-    color: white;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-} */
+/* footer */
+footer{
+    background-color: #a9d6d6; 
+    height: 39px; 
+    text-align: center;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+  
 
 
 /* Responsive -----------------------------------------------------*/
-
-@media (max-width: 600px){
+@media (max-width: 780px){
     .cuadrobase{
-        margin:20px;
-        padding:68px;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
+        width:40vw;
+        margin: 7vh;
 
     }
     button{
@@ -169,3 +186,34 @@ button:hover{
     }
 
 }  
+
+@media (max-width: 600px){
+    .cuadrobase{
+        width: 68vw;
+        padding: 25px;
+        margin: 5vh;
+    }
+    .resultado{
+        margin-top: 27px;
+    }
+    
+
+    input {
+        height: 24px;
+    }
+    button{
+        font-size: 13px;
+        padding: 7px;
+        margin: 44px 0px 0px;
+        height: 33px;
+    }
+    
+    label {
+        font-size: 0.9em;
+    }
+    img {
+        height: 19vh;
+    }
+
+}  
+
