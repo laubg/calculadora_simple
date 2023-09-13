@@ -136,7 +136,7 @@ function validaOperadores(){
 
      // <--------Mostrar el botón de reinicio----->
     const reiniciar= document.getElementById("reset")
-    reiniciar.style.display = 'flex';
+    reiniciar.style.display = 'inline-flex';
 
     // switch (operacion) {
     //     case 'suma':

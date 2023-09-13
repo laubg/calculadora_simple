@@ -34,8 +34,7 @@ h5{
     }
 
     button{
-        /* margin: -6px 0px 9px; */
-        margin: 10px 0px 12px;
+        margin: 18px 0px 8px;
         height: 26px;
         font-size: 0.6em
     }
@@ -51,7 +50,17 @@ h5{
         font-size: 0.6em;
     }
     button{
-        /* margin: 8px 0px 9px; */
+        margin: 11px 0px 9px;
+        height: 26px;
+        font-size: 0.6em;
+    }
+
+} 
+@media (max-width: 268px){
+
+ 
+    button{
+        margin: 11px 0px 9px;
         height: 26px;
         font-size: 0.6em;
     }

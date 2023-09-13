@@ -121,6 +121,9 @@ label {
 
 .boton-operacion{
     display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
     align-items: center;
 }
 
@@ -130,8 +133,8 @@ button{
     border-radius: 18px;
     border-color: #d4f3e9;
     padding: 0px 14px;
-    margin: 9px 0px 11px;
-    height: 32px;
+    margin: 18px 0px 8px;
+    height: 26px;
     font-size: 0.6em;
     background: #bdbdbd;
     background: linear-gradient(79.18deg, #49A0CE -0.43%, #7C53BE 22.82%, #C45497 50.61%, #7C53BE 73.76%, #49A0CE 98.43%);
@@ -141,17 +144,15 @@ button{
     color: white;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+    
 }
 button:hover{
     transform: scale(1.1)
 }
-.boton-operacion{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+#botonCalcular{
+    margin: 30px 0px 8px;
 }
+
 
 .contenedor-img{
     display: flex;
@@ -199,11 +200,11 @@ footer{
 @media (max-width: 600px){
     .cuadrobase{
         width: 56vw;
-        padding: 18px;
+        padding: 9px;
         margin: 6vh 2vh 0px;
     }
     .resultado{
-        margin: 14px 0px 0px;
+        margin: 29px 0px 0px;
     }
     
 
