@@ -36,12 +36,11 @@ body{
 
 .cuadrobase{
     background-color:#f0afd652;
-    width:90vw;
-    height:90vh;
+    width:35vw;
+    height:auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
-    align-content: center;
     flex-direction: column;
     justify-content: center;
     border-radius: 16px;
@@ -49,6 +48,26 @@ body{
     border: 1px solid rgba(241 231 237 / 69%);
     backdrop-filter: blur(3.4px); 
     
+}
+
+.calculadora{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.resultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 16px;
+    box-shadow: 6px 7px 30px rgb(91 41 149 / 59%);
+    border: 1px solid rgba(241 231 237 / 69%);
+    margin: 19px;
+    padding: 5px;
 }
 
 img{

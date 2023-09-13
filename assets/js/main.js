@@ -32,8 +32,10 @@ function dividir(operando1,operando2){
 // <--------Función para imprimir el resultado----->
 // console.log(imprimir(2));
 function imprimir(){
+
     const imprResultado= document.getElementById("resultado");
-    imprResultado.innerHTML=` <h3> El resultado de la operación es: ${resultado}.</h3>`
+    imprResultado.style.display = 'flex';
+    imprResultado.innerHTML=` <h2> El resultado de la operación es: ${resultado}!</h2>`
 }
 
 // <--------Función para cambio de imagen----->
@@ -69,7 +71,7 @@ function calcular(){
 
     switch (operacion.value) {
         case 'suma':
-            suma(operando1.value, operando2.value);
+            suma(Number(operando1.value), Number(operando2.value));
             console.log(resultado)
             imprimir()
             break;
@@ -122,9 +124,9 @@ function validaOperadores(){
     } 
 
     cambiarImg2();
-    // console.log(operando1)
-    // console.log(operando2)
-    // console.log(operacion)
+    console.log(operando1)
+    console.log(operando2)
+    console.log(operacion)
 
     calcular();
 
@@ -134,7 +136,7 @@ function validaOperadores(){
 
      // <--------Mostrar el botón de reinicio----->
     const reiniciar= document.getElementById("reset")
-    reiniciar.style.display = 'block';
+    reiniciar.style.display = 'flex';
 
     // switch (operacion) {
     //     case 'suma':
@@ -177,5 +179,6 @@ function reiniciar(){
     document.getElementById("resultado").innerHTML = "";
     document.getElementById("botonCalcular").style.display = 'block';
     document.getElementById("reset").style.display = 'none';
+    document.getElementById("resultado").style.display = 'none';
 
 }
