@@ -48,7 +48,7 @@ body{
 .cuadrobase{
     background-color:#f0afd652;
     width: 32vw;
-    margin: 6vh;
+    margin: 2vh;
     height:auto;
     display: flex;
     flex-wrap: nowrap;
