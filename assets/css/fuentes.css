@@ -1,6 +1,6 @@
 @font-face{
     font-family: cattyla;
-    src: url(/assets/fonts/Cattyla.ttf)
+    src: url(../fonts/Cattyla.ttf)
 }
 
 body{
@@ -10,7 +10,7 @@ body{
 
 h1{
     font-family: cattyla;
-    font-size: 2.5em;;
+    font-size: 1.8em;
     text-align:center;
     color:#27153c;
     padding: 22px 0px 0px;
@@ -19,19 +19,40 @@ h1{
 
 h2{
     color:#f0e5e5;
-    font-size:0.8em;
+    font-size:0.7em;
+}
+
+h5{
+    font-size:0.5em;
 }
 
 
 /* Responsive -----------------------------------------------------*/
+@media (max-width: 780px){
+    h2 {
+        font-size: 0.6em;
+    }
+
+    button{
+        margin: -6px 0px 9px;
+        height: 26px;
+        font-size: 0.6em
+    }
+
+}  
 @media (max-width: 506px){
 
     h1{
-        font-size: 2em;
-        padding: 10px;
+        font-size: 1.8em;
+        padding: 2px;
     }
     h2 {
-        font-size: 0.8em;
+        font-size: 0.6em;
+    }
+    button{
+        margin: 8px 0px 9px;
+        height: 26px;
+        font-size: 0.6em;
     }
 
 } 

@@ -47,7 +47,7 @@ body{
 
 .cuadrobase{
     background-color:#f0afd652;
-    width: 32vw;
+    width: 38vw;
     margin: 2vh;
     height:auto;
     display: flex;
@@ -85,35 +85,36 @@ body{
 .contenedor-img{
     height: 18.5vh;
 }
+
 img{
-    height:27vh;
+    height:22vh;
 }
 
 input{
     color:#4c2a9b;
-    height: 25px;
+    height: 21px;
     border-radius: 7px;
-    padding:5px
+    padding: 5px;
+    font-size: 0.9em;
 }
 
 select{
     color:#4c2a9b;
-    height: 31px;
+    height: 19px;
     border-radius: 7px;
-    padding:3px 4px;
-    font-size: 15px;
+    padding: 3px 4px;
+    font-size: 0.9em;
     
 }
 label {
-    
-    padding: 6px;
-    margin: 7px;
-    height: 23px;
+    padding: 10px;
+    margin: 1px;
+    height: 21px;
     display: flex;
     flex-direction: column;
-    line-height: 24px;
+    line-height: 21px;
     color: #f0e5e5;
-    font-size: 0.9em;
+    font-size: 0.7em;
     
 }
 
@@ -122,9 +123,10 @@ button{
     background-color: #8f20d2;
     border-radius: 18px;
     border-color: #d4f3e9;
-    padding: 13px;
-    margin: 27px;
-    height: 45px;
+    padding: 0px 14px;
+    margin: 10px;
+    height: 32px;
+    font-size: 0.6em;
     background: #bdbdbd;
     background: linear-gradient(79.18deg, #49A0CE -0.43%, #7C53BE 22.82%, #C45497 50.61%, #7C53BE 73.76%, #49A0CE 98.43%);
     background-size: 400% 100%;
@@ -157,7 +159,7 @@ button:hover{
 /* footer */
 footer{
     background-color: #a9d6d6; 
-    height: 39px; 
+    height: 32px; 
     text-align: center;
     width: auto;
     display: flex;
@@ -174,13 +176,14 @@ footer{
 /* Responsive -----------------------------------------------------*/
 @media (max-width: 780px){
     .cuadrobase{
-        width:40vw;
-        margin: 7vh;
+        width: 34vw;
+        margin: 5vh;
+    }
+    
+    img {
+        height: 19vh;
+    }
 
-    }
-    button{
-        font-size: 15px;
-    }
     .resultados{
         margin: 51px;
     }
@@ -189,27 +192,25 @@ footer{
 
 @media (max-width: 600px){
     .cuadrobase{
-        width: 68vw;
-        padding: 25px;
-        margin: 5vh;
+        width: 56vw;
+        padding: 18px;
+        margin: 6vh;
     }
     .resultado{
-        margin-top: 27px;
+        margin: 14px 0px 0px;
     }
     
 
     input {
         height: 24px;
     }
-    button{
-        font-size: 13px;
-        padding: 7px;
-        margin: 44px 0px 0px;
-        height: 33px;
-    }
+    
     
     label {
-        font-size: 0.9em;
+        font-size: 0.6em;
+        padding: 2px;
+        margin-top: 5px;
+        height: 18px;
     }
     img {
         height: 19vh;
