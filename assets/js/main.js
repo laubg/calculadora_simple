@@ -55,8 +55,6 @@ function cambiarImg2(){
 
 // <--------Función para validar operadores, activar operaciones y cambio de imagen----->
 
-
-
 // <--1er cambio de imagen sin necesidad de hacer click en el botón-->
 
 document.getElementById("operando1").addEventListener("change", cambiarImg1);
@@ -107,21 +105,25 @@ function validaOperadores(){
     
 
     if ((operando1 == isNaN)||(operando2 == isNaN)) {
-        alert("Sólo se admiten valores numéricos, intenta con un nuevo valor.")
         reiniciar();
+        alert("Sólo se admiten valores numéricos, intenta con un nuevo valor.");
+        
         
     } else if((operando1 <= 0)||(operando2  <= 0)){
-        alert("Ingresa un valor superior a 0 en ambos operadores")
         reiniciar();
+        alert("Ingresa un valor superior a 0 en ambos operadores");
+        
         
     } else if((operando1 > 10000000)||(operando2 > 10000000)){
-        alert("Ingresa un valor inferior a 10000000 por favor")
         reiniciar();
+        alert("Ingresa un valor inferior a 10000000 por favor");
+        
     } else if(operacion==""){
-        alert("Ingresa el tipo de operación a realizar por favor")
         reiniciar();
+        alert("Ingresa el tipo de operación a realizar por favor");
+        
 
-    } 
+    } else{
 
     cambiarImg2();
     console.log(operando1)
@@ -137,6 +139,8 @@ function validaOperadores(){
      // <--------Mostrar el botón de reinicio----->
     const reiniciar= document.getElementById("reset")
     reiniciar.style.display = 'inline-flex';
+
+    }
 
     // switch (operacion) {
     //     case 'suma':
