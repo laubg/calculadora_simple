@@ -200,7 +200,7 @@ footer{
 @media (max-width: 600px){
     .cuadrobase{
         height: 72vh;
-        width: 72vw;
+        width: 81vw;
         padding: 9px;
         margin: 5vh 2vh 0px;
     }
@@ -233,4 +233,3 @@ footer{
     }
 
 }  
-
