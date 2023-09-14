@@ -199,9 +199,9 @@ footer{
 
 @media (max-width: 600px){
     .cuadrobase{
-        width: 56vw;
+        width: 72vw;
         padding: 9px;
-        margin: 6vh 2vh 0px;
+        margin: 11vh 2vh 0px;
     }
     .resultado{
         margin: 29px 0px 0px;
@@ -209,18 +209,26 @@ footer{
     
 
     input {
-        height: 24px;
+        height: 28px;
+        font-size: 1.2em;
     }
     
+    select{
+        font-size: 1.2em;
+        height: 28px;
+    }
     
     label {
-        font-size: 0.6em;
+        font-size: 0.9em;
         padding: 2px;
         margin-top: 5px;
-        height: 18px;
+        height: 31px;
     }
     img {
         height: 19vh;
+    }
+    footer{
+        height: 7vh;
     }
 
 }  

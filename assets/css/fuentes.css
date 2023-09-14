@@ -43,16 +43,19 @@ h5{
 @media (max-width: 506px){
 
     h1{
-        font-size: 1.8em;
+        font-size: 3em;
         padding: 2px;
     }
     h2 {
-        font-size: 0.6em;
+        font-size: 0.8em;
+    }
+    h5{
+        font-size: 0.7em;
     }
     button{
         margin: 11px 0px 9px;
-        height: 26px;
-        font-size: 0.6em;
+        height: 38px;
+        font-size: 0.9em;
     }
 
 } 
