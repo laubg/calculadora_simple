@@ -1,2 +1,5 @@
 # Ignora la carpeta VSCode
 .vscode
+
+# Ignora archivo gitignore
+.gitignore
