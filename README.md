@@ -1,4 +1,5 @@
 # Calculadora_simple: "Catculator"
+
 _La finalidad de éste proyecto es presentar una calculadora simple y amigable que permita realizar operaciones sencillas (suma, resta, división y multiplicación) y realizar una práctica básica de Js._
 ## Comenzando 🚀
 
@@ -16,6 +17,7 @@ _Html, CSS y Js._
 * _La validación de los valores ingresados se realiza tanto por medio del html (a través de los atributos de input type number) como por medio de Js, en éste caso, al faltar algún parámetro o ingresar un valor no permitido se activa un alert que invita al usuario a ingresar nuevamente los datos._
 
 ## Material consultado📌 
+
 * [https://pixonauta.com/como-animar-gradientes-o-degradados-con-css/](https://pixonauta.com/como-animar-gradientes-o-degradados-con-css/)
 * [https://www.baulphp.com/input-type-number-y-numeros-decimales/](https://www.baulphp.com/input-type-number-y-numeros-decimales/)
 * [https://donnierock.com/2017/09/19/cambiar-el-src-de-una-imagen-con-javascript-o-jquery/](https://donnierock.com/2017/09/19/cambiar-el-src-de-una-imagen-con-javascript-o-jquery/)
@@ -26,6 +28,7 @@ _Html, CSS y Js._
 
 
 ## Imágenes y recursos utilizadas🎨 
+
 * [Gato con computadora](https://www.freepik.es/vector-gratis/lindo-gato-trabajando-laptop-dibujos-animados-vector-icono-ilustracion-animal-tecnologia-icono-concepto-aislado_28565598.htm#page=2&query=Cat&position=6&from_view=author)
 * [Gato con lentes](https://www.freepik.es/vector-gratis/lindo-gato-fresco-gafas-dibujos-animados-vector-icono-ilustracion-animal-naturaleza-icono-concepto-aislado_23104955.htm#query=Cat&position=1&from_view=author)
 * [Gato con lentes](https://www.freepik.es/vector-gratis/gato-lindo-ejemplo-icono-vector-historieta-agujero-concepto-icono-naturaleza-animal-aislado-premium-vector-estilo-dibujos-animados-plana_23006709.htm#query=Cat&position=2&from_view=author)
@@ -34,6 +37,7 @@ _Html, CSS y Js._
 
 
 ## Herramientas utilizadas🔨 
+
 * [Emojis](https://emojiterra.com/es)
 * [Gradiente](https://cssgradient.io)
 
