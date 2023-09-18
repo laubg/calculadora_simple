@@ -1,6 +1,7 @@
 # Calculadora simple: "Catculator"
 
 _La finalidad de éste proyecto es presentar una calculadora simple y amigable que permita realizar operaciones sencillas (suma, resta, división y multiplicación) y realizar una práctica básica de Js._
+_Puedes ver éste proyecto aquí: [laubg.github.io/calculadora_simple/](laubg.github.io/calculadora_simple//)_
 ## Comenzando 🚀
 
 _Para poder descargar éste proyecto será suficiente con clonar el mismo en una carpeta local y abrirlo con VSC y LiveServer._
