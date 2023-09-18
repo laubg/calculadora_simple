@@ -9,11 +9,19 @@ _Html, CSS y Js._
 
 ## Decisiones de Implementación ⚙️
 
+* _Los valores a ingresar deben ser números a partir de 0.1 hasta 10.000.000._
+* _Está permitido ingresar valores decimales._
+* _Todos los campos deben ser completados para realizar la operación (operadores y tipo de operación a realizar), en caso de no hacerlo o no ingresar valores aceptados el contenido del formulario vuelve al estado inicial._
+* _Sumé una animación a una imagen que cambia a medida que se efectúa la operación._
+* _La validación de los valores ingresados se realiza tanto por medio del html (a través de los atributos de input type number) como por medio de Js, en éste caso, al faltar algún parámetro o ingresar un valor no permitido se activa un alert que invita al usuario a ingresar nuevamente los datos._
+
 ## Material consultado📌 
 * [https://pixonauta.com/como-animar-gradientes-o-degradados-con-css/](https://pixonauta.com/como-animar-gradientes-o-degradados-con-css/)
 * [https://www.baulphp.com/input-type-number-y-numeros-decimales/](https://www.baulphp.com/input-type-number-y-numeros-decimales/)
 * [https://donnierock.com/2017/09/19/cambiar-el-src-de-una-imagen-con-javascript-o-jquery/](https://donnierock.com/2017/09/19/cambiar-el-src-de-una-imagen-con-javascript-o-jquery/)
 * [https://es.stackoverflow.com/questions/104098/por-qué-lo-concatena](https://es.stackoverflow.com/questions/104098/por-qué-lo-concatena)
+* [https://developer.chrome.com/blog/support-for-theme-color-in-chrome-39-for-android/](https://developer.chrome.com/blog/support-for-theme-color-in-chrome-39-for-android/)
+
 
 
 
