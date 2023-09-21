@@ -18,7 +18,7 @@ body{
 
     /* background degradado */
     background: rgb(247,37,133);
-    background: -moz-linear-gradient(312deg, rgba(247,37,133,1) 0%, rgba(72,12,168,1) 47%, rgba(128,255,219,1) 100%);
+    background: -moz-linear-gradient(312deg, rgba(247,37,133,1) 0%, #480ca8 47%, rgba(128,255,219,1) 100%);
     background: -webkit-linear-gradient(312deg, rgba(247,37,133,1) 0%, rgba(72,12,168,1) 47%, rgba(128,255,219,1) 100%);
     background: linear-gradient(312deg, rgba(247,37,133,1) 0%, rgba(72,12,168,1) 47%, rgba(128,255,219,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f72585",endColorstr="#80ffdb",GradientType=1);
